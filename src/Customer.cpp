@@ -29,6 +29,10 @@ void Customer::addRental(const Rental& rental) {
     rentals.push_back(rental);
 }
 
+// 
+double Customer::addRental(const Rental& rental) const {
+}
+
 // customer rental statement
 std::string Customer::statement() const {
 

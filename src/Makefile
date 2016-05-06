@@ -1,6 +1,6 @@
 #############################################################################
 # VideoStore
-#
+
 
 OBJS=VideoStore.o Video.o Rental.o Customer.o
 TOBJS=Video_t.o Rental_t.o Customer_t.o
